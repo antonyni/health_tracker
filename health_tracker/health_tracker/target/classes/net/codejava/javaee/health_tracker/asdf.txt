@@ -1,0 +1,18 @@
+case "/newSleep":
+				showNewFormSleep(request, response);
+				break;
+			case "/insertSleep":
+				insertSleep(request, response);
+				break;
+			case "/deleteSleep":
+				deleteSleep(request, response);
+				break;
+			case "/editSleep":
+				showEditFormSleep(request, response);
+				break;
+			case "/updateSleep":
+				updateSleep(request, response);
+				break;
+			case "/listSleep":
+				listSleep(request,response);
+				break;
